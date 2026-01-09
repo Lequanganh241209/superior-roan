@@ -2,7 +2,7 @@
 
 import { Suspense, useEffect, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { supabase } from "@/lib/supabase/client";
+import { supabase } from "../../../lib/supabase/client";
 
 function Content() {
   const search = useSearchParams();

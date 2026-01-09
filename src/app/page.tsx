@@ -4,15 +4,15 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Rocket, Box, Layers, Activity, Cpu, Settings, Github, Zap, GitBranch, LogOut, FolderOpen } from "lucide-react";
-import { cn } from "@/lib/utils";
-import { ProjectInit } from "@/components/dashboard/ProjectInit";
-import { Sandbox } from "@/components/preview/Sandbox";
-import { EvolutionDashboard } from "@/components/dashboard/Evolution";
-import { DatabaseArchitect } from "@/components/dashboard/DatabaseArchitect";
-import { VisualWorkflow } from "@/components/dashboard/VisualWorkflow";
-import { SmartBilling } from "@/components/billing/SmartBilling";
-import { useProjectStore } from "@/store/project-store";
-import { supabase } from "@/lib/supabase/client";
+import { cn } from "../lib/utils";
+import { ProjectInit } from "../components/dashboard/ProjectInit";
+import { Sandbox } from "../components/preview/Sandbox";
+import { EvolutionDashboard } from "../components/dashboard/Evolution";
+import { DatabaseArchitect } from "../components/dashboard/DatabaseArchitect";
+import { VisualWorkflow } from "../components/dashboard/VisualWorkflow";
+import { SmartBilling } from "../components/billing/SmartBilling";
+import { useProjectStore } from "../store/project-store";
+import { supabase } from "../lib/supabase/client";
 import { toast } from "sonner";
 
 interface Project {

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { pushFilesToRepo } from "@/lib/github/service";
+import { pushFilesToRepo } from "../../../../lib/github/service";
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;

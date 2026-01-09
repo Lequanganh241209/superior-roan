@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { setProjectEnv, bindCanonicalAlias, disableDeploymentProtection } from "@/lib/vercel/service";
+import { setProjectEnv, bindCanonicalAlias, disableDeploymentProtection } from "../../../../lib/vercel/service";
 
 export async function POST(req: NextRequest) {
   try {

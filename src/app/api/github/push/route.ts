@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { pushFilesToRepo } from "@/lib/github/service";
+import { pushFilesToRepo } from "../../../../lib/github/service";
 import fs from "fs";
 import path from "path";
 

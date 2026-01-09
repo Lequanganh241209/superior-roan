@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createRepository, pushFileToRepo } from "@/lib/github/service";
+import { createRepository, pushFileToRepo } from "../../../../lib/github/service";
 
 export async function POST(req: NextRequest) {
   try {

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createDeployment, setProjectEnv } from "@/lib/vercel/service";
-import { ContextOracle } from "@/lib/oracle/service";
+import { createDeployment, setProjectEnv } from "../../../../lib/vercel/service";
+import { ContextOracle } from "../../../../lib/oracle/service";
 import fs from "fs";
 import path from "path";
 

@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { Activity, Zap, MousePointer2, Server, ArrowUpRight, AlertTriangle, History, RotateCcw, GitCommit } from "lucide-react";
 import { motion } from "framer-motion";
-import { cn } from "@/lib/utils";
-import { useProjectStore } from "@/store/project-store";
+import { cn } from "../../lib/utils";
+import { useProjectStore } from "../../store/project-store";
 import { toast } from "sonner";
 
 export function EvolutionDashboard() {

@@ -15,7 +15,7 @@ import ReactFlow, {
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { motion } from 'framer-motion';
-import { useProjectStore } from '@/store/project-store';
+import { useProjectStore } from '../../store/project-store';
 
 const initialNodes: Node[] = [];
 const initialEdges: Edge[] = [];

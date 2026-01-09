@@ -3,10 +3,10 @@
 import { useState, useEffect } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import { Check, Copy, CreditCard, Zap, Loader2, ShieldCheck } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
-import { supabase } from "@/lib/supabase/client";
+import { supabase } from "../../lib/supabase/client";
 
 export function SmartBilling() {
   const [selectedPlan, setSelectedPlan] = useState<'pro' | 'enterprise'>('pro');

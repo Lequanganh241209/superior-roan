@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { Layers, ArrowRight, Code, Database, Wand2 } from "lucide-react";
 import { motion } from "framer-motion";
-import { parseNaturalLanguageToSQL } from "@/lib/sql-parser";
-import { useProjectStore } from "@/store/project-store";
+import { parseNaturalLanguageToSQL } from "../../lib/sql-parser";
+import { useProjectStore } from "../../store/project-store";
 
 export function DatabaseArchitect() {
   const [input, setInput] = useState("");

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { createEvolutionPR } from "@/lib/github/service";
-import { supabase } from "@/lib/supabase/client";
+import { createEvolutionPR } from "../../../../lib/github/service";
+import { supabase } from "../../../../lib/supabase/client";
 
 export async function POST(req: NextRequest) {
   try {

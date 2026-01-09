@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { Loader2, Rocket, Upload, CheckCircle2, ExternalLink, Cpu, Terminal, RotateCcw } from "lucide-react";
-import { useProjectStore } from "@/store/project-store";
-import { cn } from "@/lib/utils";
+import { useProjectStore } from "../../store/project-store";
+import { cn } from "../../lib/utils";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
-import { supabase } from "@/lib/supabase/client";
+import { supabase } from "../../lib/supabase/client";
 
 export function ProjectInit() {
   const { isInitializing, setInitializing, setProjectDetails, setHighlightedTab, setWorkflow, setGeneratedSQL, setPreviewUrl } = useProjectStore();

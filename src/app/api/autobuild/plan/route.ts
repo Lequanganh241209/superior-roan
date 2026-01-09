@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { parseNaturalLanguageToSQL, parseEntities } from "@/lib/sql-parser";
-import { ContextOracle } from "@/lib/oracle/service";
+import { parseNaturalLanguageToSQL, parseEntities } from "../../../../lib/sql-parser";
+import { ContextOracle } from "../../../../lib/oracle/service";
 
 export async function POST(req: NextRequest) {
   try {

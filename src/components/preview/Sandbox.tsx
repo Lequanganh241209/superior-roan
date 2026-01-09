@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { RefreshCw, ExternalLink } from "lucide-react";
-import { useProjectStore } from "@/store/project-store";
+import { useProjectStore } from "../../store/project-store";
 
 const OVERRIDES: Record<string, string> = {
   writingtask2: "https://writingtask2-646deiwnu-le-quang-tons-projects.vercel.app"
